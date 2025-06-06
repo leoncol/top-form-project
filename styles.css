@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'goldmanregular';
+    src: url('./assets/goldman_font/goldman-regular-webfont.woff2') format('woff2'),
+         url('./assets/goldman_font/goldman-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('./assets/roboto_font/roboto-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('./assets/roboto_font/roboto-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+body {
+    font-family: robotoregular;
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+
+.right-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.div-logo {
+    position: relative;
+    height: 100%;
+    width: 40rem;
+}
+
+#background-image {
+    display: block;
+    width: 40rem;
+    height: 100%;
+}
+
+
+.background-logo {
+    position: absolute;
+    height: 11rem;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 9rem;
+}
+
+#logo {
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    height: 200px;
+    width: 200px;
+}
+
+.logo-message {
+    position: absolute;
+    font-size: 5rem;
+    color: white;
+    top: 12rem;
+    left: 13rem;
+    font-family: goldmanregular;
+
+}
+
+.upper-banner {
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    width: 100%;
+    height: 20rem;
+    background-color: rgba(249,250,251,255);
+}
+
+.message {
+    font-size: 1.5rem;
+}
