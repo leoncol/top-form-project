@@ -32,16 +32,34 @@ html,body {
 body {
     font-family: robotoregular;
     display: flex;
-    justify-content: center;
+    background-color: black;
+    
+    
 
     
     
 }
 
+label {
+    color: #28343f;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    width: 15rem;
+    height: 1.5rem;
+}
+
 .right-area {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 43%;
+    
+    
 }
 
 .div-logo {
@@ -51,45 +69,55 @@ body {
 }
 
 #background-image {
-    display: block;
     width: 40rem;
     height: 100%;
 }
 
 
 .background-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     height: 11rem;
     width: 100%;
-    background-color: black;
-    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.575);
     top: 9rem;
 }
 
 #logo {
-    position: absolute;
-    top: 8rem;
-    left: 2rem;
     height: 200px;
     width: 200px;
+    margin-right: -2rem;
+    
 }
 
 .logo-message {
-    position: absolute;
     font-size: 5rem;
     color: white;
-    top: 12rem;
-    left: 13rem;
     font-family: goldmanregular;
 
+}
+
+.form-message {
+    position: absolute;
+    width: 20rem;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-family: robotoregular;
+    font-weight: bold;
+    color: #28343f;
 }
 
 .upper-banner {
     display: flex;
     align-items: end;
     justify-content: flex-start;
-    padding-bottom: 3rem;
+    padding-top: 5rem;
     padding-left: 3rem;
+    padding-bottom: 7rem;
     width: 100%;
     height: 20rem;
     background-color: rgba(249,250,251,255);
@@ -97,4 +125,50 @@ body {
 
 .message {
     font-size: 1.5rem;
+    font-weight: bold;
 }
+
+.form-layout {
+    display: flex;
+    justify-content: flex-start;
+    height: 20rem;
+    padding: 3rem;
+    width: 100%;
+    background-color: white;
+    
+    
+}
+
+.first-form-half, .second-form-half {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 15rem;
+}
+
+.first-form-half {
+    margin-right: 5rem;
+}
+
+.second-form-half {
+    margin-left: -1rem;
+}
+
+.centering-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.footer-submit {
+    background-color: rgba(249,250,251,255);
+    height: 100%;
+    
+    
+    
+}
+

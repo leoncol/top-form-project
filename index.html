@@ -1,55 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gymreps</title>
     <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
-<div class="div-logo">
-    <img src="assets/background.jpg" alt="dumbbells on a rack" id="background-image">
-    <div class="background-logo"></div>
-    <img src="assets/logo.png" alt="arm lifting a dumbbel" id="logo">
-    <p class="logo-message">Gymreps</p>
-</div>
-<div class="right-area">
-    <div class="upper-banner">
-        <p class="message"><strong>Sign up to keep track of your reps and enhance<br> your gym experience!<br><br> Access today for free!</strong></p>
+    <div class="centering-div">
+        <div class="div-logo">
+            <img src="assets/background.jpg" alt="dumbbells on a rack" id="background-image">
+            <div class="background-logo">
+                <img src="assets/logo.png" alt="arm lifting a dumbbel" id="logo">
+                <p class="logo-message">Gymreps</p>
+            </div>
+        </div>
+        <div class="right-area">
+            <div class="upper-banner">
+                <p class="message">Sign up to keep track of your reps and enhance<br> your gym experience!<br><br>
+                    Access today for free!</p>
+            </div>
+            <form action="https://httpbin.org/post" method="post">
+                <div class="form-layout">
+                    <p class="form-message">Write your information here:</p>
+                    <div class="first-form-half">
+                        <div class="first-name">
+                            <label for="first-name">FIRST NAME<br></label>
+                            <input type="text" id="first-name" name="first-name">
+                        </div>
+                        <div class="email">
+                            <label for="email">EMAIL<br></label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="password">
+                            <label for="password">PASSWORD<br></label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </div>
+                    <div class="second-form-half">
+                        <div class="last-name">
+                            <label for="last-name">LAST NAME<br></label>
+                            <input type="text" id="last-name" name="last-name">
+                        </div>
+                        <div class="phone-number">
+                            <label for="phone-number">PHONE NUMBER<br></label>
+                            <input type="tel" id="phone-number" name="phone-number">
+                        </div>
+                        <div class="confirm-password">
+                            <label for="confirm-password">CONFIRM PASSWORD<br></label>
+                            <input type="password" id="confirm-password" name="confirm-password">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="footer-submit">
+                <button type="submit">Create an account!</button>
+                <p>Already have an account? <a href="www.google.com">Log in</a></p>
+            </div>
+        </div>
     </div>
-    <form action="https://httpbin.org/post" method="post">
-    <div class="form-layout">
-        <p>Write your information here:</p>
-        <div class="first-name">
-            <label for="first-name">First name</label>
-        <input type="text" id="first-name" name="first-name">
-        </div>
-        <div class="last-name">
-            <label for="last-name">Last name</label>
-            <input type="text" id="last-name" name="last-name">
-        </div>
-        <div class="email">
-            <label for="email">Email address</label>
-            <input type="email" id="email" name="email">
-        </div>
-        <div class="phone-number">
-            <label for="phone-number">Phone number</label>
-            <input type="tel" id="phone-number" name="phone-number">
-        </div>
-        <div class="password">
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password">
-        </div>
-        <div class="confirm-password">
-            <label for="confirm-password">Confirm password</label>
-            <input type="password" id="confirm-password" name="confirm-password">
-        </div>
-    </div>
-<div class="footer-submit">
-    <button type="submit">Create an account!</button>
-    <p>Already have an account? <a href="www.google.com">Log in</a></p>
-</div>
-</form>
-</div>
 </body>
+
 </html>
