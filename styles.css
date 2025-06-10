@@ -54,10 +54,12 @@ input {
     height: 1.5rem;
 }
 
+
 .right-area {
     display: flex;
     flex-direction: column;
     width: 43%;
+    height: 100%;
     
     
 }
@@ -137,6 +139,8 @@ input {
     background-color: white;
     
     
+    
+    
 }
 
 .first-form-half, .second-form-half {
@@ -165,10 +169,28 @@ input {
 }
 
 .footer-submit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2rem;
     background-color: rgba(249,250,251,255);
     height: 100%;
     
     
-    
+}
+
+.submit-button {
+    height: 3rem;
+    width: 14rem;
+    background-color: #373530;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.315) 2px 2px 5px;
+    margin-bottom: 2rem;
+    font-family: robotoregular;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(249,250,251,255);
 }
 
