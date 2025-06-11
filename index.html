@@ -23,8 +23,8 @@
                     Access today for free!</p>
             </div>
             <form id="my-form" action="https://httpbin.org/post" method="post">
+                <p class="form-message">Write your information here:</p>
                 <div class="form-layout">
-                    <p class="form-message">Write your information here:</p>
                     <div class="first-form-half">
                         <div class="first-name">
                             <label for="first-name">FIRST NAME<br></label>
@@ -36,7 +36,7 @@
                         </div>
                         <div class="password">
                             <label for="password">PASSWORD<br></label>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" required>
                         </div>
                     </div>
                     <div class="second-form-half">
@@ -50,7 +50,7 @@
                         </div>
                         <div class="confirm-password">
                             <label for="confirm-password">CONFIRM PASSWORD<br></label>
-                            <input type="password" id="confirm-password" name="confirm-password">
+                            <input type="password" id="confirm-password" name="confirm-password" required>
                         </div>
                     </div>
                 </div>
